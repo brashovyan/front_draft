@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "css/lab_1.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Artemida Electronics</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="#" class="header__menu">Artemida Electronics</a>
+        </div>
+        <div class="header__right">
+            <a href="#" class="header__menu">Меню</a>
+            <a href="#" class="header__menu">Меню</a>
+            <a href="#" class="header__menu">Меню</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__left">
+            <p class="main__logo">Комплектующие</p>
+            <div class="products">
+                <ul class="main__ul"><li><p class="main__product__logo">Процессоры</p></li></ul>
+                    <div class="product">
+                        <input name="AMD Ryzen 5 5600x" value="15000" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block1')">AMD Ryzen 5 5600x</a>
+                        <div class="main__img" id="block1">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st4/fit/320/250/f136b328601bc34524e5ccb367323c08/cca2b331b0947fe2973ee287baea67acb2f568793792d5fe6c2451239a7a9ea0.jpg" width="100" height="100" alt="Процессор"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <input name="Intel Core i5 10400f" value="12000" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block2')">Intel Core i5 10400f</a>
+                        <div class="main__img" id="block2">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st4/fit/200/200/74fc2950e50366ccf730eaed09671289/b82ca137e8126499dc0b73424825d642c120abced17a34c70f03894a213e0b47.jpg.webp" width="100" height="100" alt="Процессор"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+                
+                <ul class="main__ul"><li><p class="main__product__logo">Материнские платы</p></li></ul>
+                    <div class="product">
+                        <input name="GIGABYTE H610M H" value="8500" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block3')">GIGABYTE H610M H</a>
+                        <div class="main__img" id="block3">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/636df3b2a7e46f376cfbe777f7536733/49863f1362765c147ebce398ce6900778004ec068a75e24d4bf4a76fb49cefc1.jpg.webp" width="100" height="100" alt="Мать"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <input name="MSI A320M PRO-VH" value="4000" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block4')">MSI A320M PRO-VH</a>
+                        <div class="main__img" id="block4">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st4/fit/200/200/4ba8856b67f9abd105d923f77f564c36/f6edfde876473e35706ded36befa121ca43afcfd6c0dac27c9468b74482f6d35.jpg.webp" width="100" height="100" alt="Мать"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+
+                <ul class="main__ul"><li><p class="main__product__logo">Видеокарты</p></li></ul>
+                    <div class="product">
+                        <input name="Palit GeForce RTX 3060 DUAL OC (LHR)" value="40000" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block5')">Palit GeForce RTX 3060 DUAL OC (LHR)</a>
+                        <div class="main__img" id="block5">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st4/fit/200/200/c6dfecad565cd0342c12c82a8a6a8698/7c80865de448b9054d6bd5b08dc25df8674ff369065f8a8ce2fc392625bd0ea6.jpg.webp" width="100" height="100" alt="Мать"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <input name="PowerColor AMD Radeon RX 6600 Fighter" value="30000" type="checkbox">
+                        <a class="main__img__href" onclick="showImg('block6')">PowerColor AMD Radeon RX 6600 Fighter</a>
+                        <div class="main__img" id="block6">
+                            <div class="img__div">
+                                <a href="/123"><img src="https://c.dns-shop.ru/thumb/st4/fit/200/200/15a5bad324c53e54805c035f5d21c6af/3ef580a04cef82a54b66b2fadd13f4844f802e3b1d70ce1add53bb34300331d9.jpg.webp" width="100" height="100" alt="Мать"></a>
+                                <a href="/123" class="main__img__href">Подробнее (также тут можно разместить краткие хар-ки)</a>
+                            </div>           
+                        </div>
+                    </div>
+            </div>          
+        </div>
+
+        <div class="main__right">
+            <p class="main__logo">Ваш компьютер</p>
+            <div class="result">
+                <p>Комплектующие: <span class="result__all"></span></p>
+                <p>Цена: <span class="result__cost">0</span></p>
+            </div>
+        </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
